@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fasthand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: -moz-linear-gradient(
+        180deg, #acb6e5, #86fde8);
+
+}
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color:#314755;
+    text-align:center;
+}
+h1, h2{
+    font-family: 'Audiowide', cursive;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+#seconds, #tens{
+    font-size: 2em;
+}
+button{
+    background: transparent;
+    color: #314755;
+    width: 180px;
+    margin: 10px;
+    padding: 18px 10px;
+    cursor: pointer;
+    border: 2px solid #ff6e7f;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+button:hover{
+	background:#ff6e7f;
+	border: solid 1px #ff6e7f;
+}
